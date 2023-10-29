@@ -1,0 +1,109 @@
+.top-div {
+    height: 90%;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #dbe6ef;
+}
+
+.top-name.dark-mode h2 {
+    color: whitesmoke;
+}
+
+.top-name.dark-mode p {
+    color: whitesmoke;
+}
+
+
+.top-box {
+    margin-right: 20px;
+}
+
+.top-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-name {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* background-color: aqua; */
+    padding-bottom: 20px;
+    /* height: 100%; */
+    
+
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0%;
+    text-align: left;
+    cursor: pointer;
+    color: #364d5d;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+    text-align: left;
+    color: #364d5d;
+}
+
+
+.top-icons{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 80%;
+    min-width: 80%;
+    justify-content: flex-end;
+    gap: 20px;
+    
+    
+}
+
+.top-icons.dark-mode{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 80%;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.phone, .video{
+     padding : 10px;
+     cursor: pointer;
+     
+}
+
+.phone, .video .dark-mode{
+    padding:10px;
+}
+
+.active-icon{
+    color: #25D366;
+    margin: -10px;
+    padding-top: 5px;
+    padding-right: 4px;
+}
+
+
+.in-active-icon{
+    color: red;
+    margin: -10px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+
+.active-status{
+    padding: 0%;
+    margin: 0;
+}

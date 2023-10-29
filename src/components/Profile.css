@@ -1,0 +1,235 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.profile-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #141a26;
+
+}
+
+.profile {
+    width: 50px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.profile:hover {
+    transform: scale(1.2);
+}
+
+
+/* .images:hover{
+    background-color: #202a3f;
+} */
+
+
+.settings {
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+
+
+  
+
+.bottom-sidebar {
+    background-color: #202a3f;
+    position: absolute;
+    bottom: 0%;
+    width: 5%;
+
+}
+
+.images {
+    padding-top: 10px;
+}
+
+.images2 {
+    padding-top: 10px;
+}
+
+
+/* .images2:hover{
+    background-color: #181f2e;
+} */
+
+.img {
+    width: 100%;
+    height: 90vh;
+}
+
+
+.chats {
+    /* border-right: 1px solid white; */
+    box-shadow: 5px 0px  10px #ffffff;
+    width: 30%;
+}
+
+.chatbox {
+    /* background-color: darkcyan; */
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 0px  10px #ffffff;
+
+}
+
+.active-status {
+    /* min-height: 100px; */
+    height: 10%;
+    /* max-height: 10%; */
+    width: 100%;
+    /* background-color: #CFDEF3; */
+    /* margin-top: -20px; */
+    /* background-color: aquamarine; */
+}
+
+.send-boxx {
+    height: 10%;
+    /* min-height: 30px; */
+}
+
+.chat-box {
+    height: 80%;
+}
+
+.user-p,
+.user-h2 {
+    margin: 0%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.settings::after {
+    background-color: #fd5050;
+}
+
+.selected {
+    background-color: #fd5050;
+}
+
+.selected2 {
+    background-color: #fd5050;
+}
+
+
+
+.container.lightmode {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  /* .sidebar.dark-mode {
+    background-color: #222;
+  } */
+  
+
+  .profile-div.dark-mode {
+    border: 2px solid #fff;
+  }
+  
+  .chatbox.dark-mode {
+    background-color: #111;
+    color: #fff;
+  }
+  
+ 
+  .chatbox.dark-mode, .chats.dark-mode {
+    background-color: #181f2e;
+    color: #fff;
+  }
+  
+  .chatbox.dark-mode .active-status.dark-mode {
+    background-color: #181f2e;
+    color: #ccc;
+  }
+  
+
+  .darkmode-toggle{
+    width: 10vh;
+    cursor: pointer;
+  }
+
+
+  .dark-mode-toggle{
+    min-width: 100%;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    background-color: #181f2e;
+    width: 5%;
+    height: 100vh;
+    transition: width 0.5s ease;
+
+}
+  
+  .sidebar.expand {
+    width: 70%;
+    transition: 0.3s ease-in-out;
+    
+  }
+
+
+  .images.expand{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+     gap: 15px;
+  }
+
+
+  
+  .sidebar p {
+    
+    color: #ebf4fb;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out; 
+  }
+  
+
+  .image-text {
+    display: none;
+    transition: opacity 0.3s ease-in-out; 
+  }
+
+  
+
+  
+  .sidebar .image-text.visible {
+    display: block;
+    opacity: 1; 
+  }
+  
+  
+  .bottom-sidebar {
+    /* width: 8%; */
+    transition: width 0.3s ease; 
+  }
+  
+  .bottom-sidebar.expand {
+    width: 8.5%;
+  }
+
+  
+ 
+
+
+

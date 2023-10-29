@@ -1,0 +1,83 @@
+.send-box{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    border-top: 1px solid #dbe6ef;
+    
+    
+    
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.type-msg{
+    height: 5vh;
+    width: 50vw;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.emoji{
+    transform: scale(1.4);
+    padding-right: 25px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+input::placeholder,
+textarea::placeholder {
+  transform: translateX(1px); 
+  color: #999; 
+}
+
+
+
+.send-image{
+    transition: transform 0.1s;
+    cursor: pointer;
+    
+
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 30px;
+}
+
+.send-image:active{
+    transform: rotateX(50deg) ;
+}
+
+.send-image.dark-mode{
+    cursor: pointer !important;
+}
+
+
+.attach{
+    cursor: pointer;
+   
+   
+    
+}
+
+.attach.dark-mode{
+    cursor: pointer;
+}
