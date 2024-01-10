@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/chatHub/static/css/main.62576351.css",
-    "main.js": "/chatHub/static/js/main.137f528d.js",
-    "static/js/787.7ea0274a.chunk.js": "/chatHub/static/js/787.7ea0274a.chunk.js",
-    "index.html": "/chatHub/index.html",
-    "main.62576351.css.map": "/chatHub/static/css/main.62576351.css.map",
-    "main.137f528d.js.map": "/chatHub/static/js/main.137f528d.js.map",
-    "787.7ea0274a.chunk.js.map": "/chatHub/static/js/787.7ea0274a.chunk.js.map"
+    "main.css": "/login/static/css/main.a4bd17cf.css",
+    "main.js": "/login/static/js/main.03c03a50.js",
+    "static/js/787.7ea0274a.chunk.js": "/login/static/js/787.7ea0274a.chunk.js",
+    "static/media/login2.riv": "/login/static/media/login2.3394cbc43ceb8017a182.riv",
+    "static/media/forgot-password.png": "/login/static/media/forgot-password.92e55a49dfa73d5e9d1f.png",
+    "index.html": "/login/index.html",
+    "main.a4bd17cf.css.map": "/login/static/css/main.a4bd17cf.css.map",
+    "main.03c03a50.js.map": "/login/static/js/main.03c03a50.js.map",
+    "787.7ea0274a.chunk.js.map": "/login/static/js/787.7ea0274a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62576351.css",
-    "static/js/main.137f528d.js"
+    "static/css/main.a4bd17cf.css",
+    "static/js/main.03c03a50.js"
   ]
 }
