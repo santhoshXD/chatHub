@@ -88,10 +88,7 @@ const Profile = () => {
                     >
                       
                         <img className={`settings ${expand ? 'expand' : ''}`} key={image.id} src={image.url} title={image.title} alt='settings' />
-                        <p className={`image-text ${expand ? 'visible' : 'hidden'}`}>
-                            {/* <p className='image-text'> */}
-                    {image.name}
-                       </p>
+                         
                        
                 </div>
                     
@@ -110,7 +107,7 @@ const Profile = () => {
                         
                         <div
                             className= 'images2'
-                            onClick={handleExpand}>
+                             >
                             
                             <img className='settings' src={data.leftsettings}  title='Expand' alt='settings'  />
                             

@@ -221,13 +221,10 @@
   
   .bottom-sidebar {
     /* width: 8%; */
-    transition: width 0.3s ease; 
+   
   }
   
-  .bottom-sidebar.expand {
-    width: 8.5%;
-  }
-
+  
   
  
 
